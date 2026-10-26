@@ -1,4 +1,3 @@
-
 def add(a, b):
     return a + b
 
@@ -7,4 +6,7 @@ def multiply(a, b):
     return a * b
 
 
-print(multiply(4, 3))  # Expected output: 12
+assert multiply(4, 3) == 12
+assert multiply(5, 0) == 0
+
+print("All tests passed!")
